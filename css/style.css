@@ -1,7 +1,76 @@
+/*azul: #1C59F9 */
+&{
+    @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap')
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 20px;
+    background-repeat: no-repeat;
+}
+header#cabecalho{
+    color: white;
+    margin: 50px;
+    font-weight: 600;
+    font-style: italic;
+
+}
+/*colors: #1B48FA(azul1) #34A8FA(azul2) #34E6FA(azul3)   */
+header#cabecalho > h1 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    text-shadow: black 5px 2px 5px;
+}
+nav{
+    background-color: rgb(22, 24, 24);
+    margin-left: auto;
+    margin-right: 50px;
+    width: 1000px;
+    height: 40px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+  
+}
+nav > a{
+    margin: 10px;
+    text-decoration: none;
+    color: #5cd370;
+    
+    
+}
+body{
+    background : linear-gradient(to bottom, #1B48FA, #34A8FA,  #34E6FA, #34A8FA, #1B48FA );
+
+    
+
+}
+main{
+    margin: 60px;
+    
+}
+main > p{
+    font-size: 18px;
+    font-weight: 550;
+    text-indent: 30px;
+}
+div#white{
+    background-color: aliceblue;
+    width: 1000px;
+    height: 800px;
+    border: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 div#citacao{
     display: inline;
     width: 945px;
     height: 400px;
+
 }
 
 blockquote{
@@ -17,5 +86,7 @@ img#steve{
     width: 380px;
     height: 400px;
     display: inline;
+    border: 5px;
+    border-radius: 10px;
     
 }
