@@ -2,7 +2,7 @@
 &{
     @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap')
     font-family: "Lora", serif;
-    font-optical-sizing: auto;
+
     font-weight: 450;
     font-style: normal;
     font-size: 20px;
@@ -18,7 +18,7 @@ header#cabecalho{
 /*colors: #1B48FA(azul1) #34A8FA(azul2) #34E6FA(azul3)   */
 header#cabecalho > h1 {
     font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
+
     font-weight: 800;
     font-style: normal;
     text-shadow: black 5px 2px 5px;
@@ -27,7 +27,7 @@ nav{
     background-color: rgb(22, 24, 24);
     margin-left: auto;
     margin-right: 50px;
-    width: 1000px;
+    width: 1024px;
     height: 40px;
     border: 1px;
     border-style: solid;
