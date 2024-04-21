@@ -58,12 +58,13 @@ main > p{
 }
 div#white{
     background-color: aliceblue;
-    width: 1000px;
+    width: 1024px;
     height: 800px;
     border: 10px;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 
 div#citacao{
@@ -89,4 +90,19 @@ img#steve{
     border: 5px;
     border-radius: 10px;
     
+}
+
+footer.box{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 50px;
+    padding: 5px;
+    
+    border: solid 1px black ;
+    color: darkslategrey;
+    font-size: medium;
+    
+
 }
