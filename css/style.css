@@ -24,6 +24,7 @@ header#cabecalho > h1 {
     text-shadow: black 5px 2px 5px;
 }
 nav{
+
     background-color: rgb(22, 24, 24);
     margin-left: auto;
     margin-right: 50px;
@@ -32,15 +33,24 @@ nav{
     border: 1px;
     border-style: solid;
     border-radius: 5px;
+   
   
 }
-nav > a{
+a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav > a:hover{
     margin: 10px;
-    text-decoration: none;
+    
+    
+    
     color: #5cd370;
     
     
 }
+
 body{
     background : linear-gradient(to bottom, #1B48FA, #34A8FA,  #34E6FA, #34A8FA, #1B48FA );
 
